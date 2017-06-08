@@ -1,22 +1,14 @@
 #include "Queue.h"
 
 
-Queue::Queuea(int size, int range)
+Queue::Queue(int size, int range)
 {
 	for (int i = 0; i < size; i++) {
-		int rand = rand() % range - 0;
-		queue.push_back(rand);
+		int randome = rand() % range - 0;
+		queue.push_back(randome);
 	}
 }
 
-
-void Queue::printQueue()
-{
-	for (int i = 0; i < queue.size(); i++) {
-		cout << setw(3) << queue[i];
-	}
-	cout << endl;
-}
 
 void Queue::addElementToQueue(int range)
 {
@@ -25,7 +17,7 @@ void Queue::addElementToQueue(int range)
 }
 
 int Queue::getElement() {
-	int elemnet = queue.front();
+	int element = queue.front();
 	queue.pop_front();
 	return element;
 }

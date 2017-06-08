@@ -17,6 +17,7 @@
 		<File Name="Queue.h"/>
 		<File Name="Queue.cpp"/>
 		<File Name="Matrix.h"/>
-		<File Name="NewFile.cpp"/>
+		<File Name="Matrix.cpp"/>
+		<File Name="Main.cpp"/>
 	</Files>
 </Project>
